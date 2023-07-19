@@ -44,6 +44,11 @@ a {
   align-items: flex-start;
 }
 
+.secondaryText {
+  color: rgb(140, 139, 139);
+  font-size: 0.9rem;
+}
+
 .button {
   font-weight: 600;
   padding: 0.6rem 1.4rem;
