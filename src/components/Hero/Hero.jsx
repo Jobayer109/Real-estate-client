@@ -16,11 +16,15 @@ const Hero = () => {
             </h1>
           </div>
           <div className="hero-description flexColStart">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you.</span>
+            <span className="secondaryText">
+              Find a variety of properties that suit you very easilty
+            </span>
+            <span className="secondaryText">
+              Forget all difficulties in finding a residence for you.
+            </span>
           </div>
           <div className="search-bar flexCenter">
-            <HiLocationMarker color="var(--blue)" size={30} />
+            <HiLocationMarker color="var(--blue)" size={24} />
             <input type="text" />
             <button className="button">Search</button>
           </div>
@@ -40,7 +44,7 @@ const Hero = () => {
               </span>
               <span className="secondaryText">Happy Clients</span>
             </div>
-            <div className="stat flexColStart">
+            <div className="stat flexColStart ">
               <span>
                 <CountUp end={43} duration={3} />
                 <span>+</span>

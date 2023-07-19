@@ -19,6 +19,6 @@
 }
 
 .h-menu > *:hover {
-  color: var(--blue);
+  color: white;
   cursor: pointer;
 }
