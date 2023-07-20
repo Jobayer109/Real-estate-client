@@ -1,6 +1,6 @@
 import React from "react";
 import "swiper/css";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import sliderSettings from "../../utils/common";
 import data from "../../utils/slider.json";
 import "./Residencies.css";
@@ -15,6 +15,7 @@ const Residencies = () => {
         </div>
 
         <Swiper {...sliderSettings}>
+          <SliderButtons />
           {data.map((card, i) => (
             <SwiperSlide key={i}>
               <div className="flexColStart res-card">
@@ -35,3 +36,14 @@ const Residencies = () => {
 };
 
 export default Residencies;
+
+const SliderButtons = () => {
+  const swiper = useSwiper();
+
+  return (
+    <div className="res-buttons">
+      <button onClick={() => swiper.slidePrev()}>&lt;</button>
+      <button onClick={() => swiper.slideNext()}>&gt;</button>
+    </div>
+  );
+};
