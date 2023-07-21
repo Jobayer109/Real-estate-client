@@ -8,7 +8,8 @@ const Footer = () => {
         {/* Left footer */}
         <div className="flexColStart f-left">
           <span>
-            <img src="./logo2.png" alt="logo" />
+            {/* <img src="./logo2.png" alt="logo" /> */}
+            <h1 className="primaryText">Property</h1>
           </span>
           <span className="secondaryText">
             Our vision is to make all people <br /> the best place to live for them.
@@ -17,7 +18,9 @@ const Footer = () => {
 
         {/* Right footer */}
         <div className="flexColStart f-left">
-          <span className="primaryText">Information</span>
+          <span className="primaryText" style={{ fontSize: "1.5rem" }}>
+            Information
+          </span>
           <span className="secondaryText">Rangpur, Dhaka, Bangladesh</span>
           <span>
             <div className="flexCenter f-detail">
