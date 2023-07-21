@@ -28,6 +28,11 @@ a {
 .innerWidth {
   width: 100%;
 }
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
 .flexCenter {
   display: flex;

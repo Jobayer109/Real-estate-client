@@ -7,29 +7,27 @@ const Contact = () => {
     <section className="c-wrapper">
       <div className="paddings flexCenter innerWidth c-container">
         {/* Left side */}
-        <div className="c-left ">
-          <div className="flexColStart">
-            <span className="orangeText">Contact us</span>
-            <span className="primaryText">Easy to contact us</span>
-            <span className="secondaryText">
-              We always ready to help by providing the best services for you. We believe a <br />{" "}
-              good vibe to live can make your life better.
-            </span>
-            <div className="flexColStart contactModes">
-              {/* First row */}
-              <div className="flexColStart row">
-                <div className="flexColCenter mode">
-                  <div className="flexStart">
-                    <div className="flexCenter icon">
-                      <MdCall size={25} />
-                    </div>
-                    <div className="flexColStart detail">
-                      <span>Call</span>
-                      <span>+880 1734 053 116</span>
-                    </div>
+        <div className="flexColStart c-left">
+          <span className="orangeText">Contact us</span>
+          <span className="primaryText">Easy to contact us</span>
+          <span className="secondaryText">
+            We always ready to help by providing the best services for you. We believe a <br /> good
+            vibe to live can make your life better.
+          </span>
+          <div className="flexColStart contactModes">
+            {/* First row */}
+            <div className="flexColStart row">
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <MdCall size={25} />
                   </div>
-                  <div className="flexCenter button">Call Now</div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Call</span>
+                    <span className="secondaryText">+880 1734 053 116</span>
+                  </div>
                 </div>
+                <div className="flexCenter button">Call Now</div>
               </div>
             </div>
           </div>
