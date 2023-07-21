@@ -1,0 +1,13 @@
+.f-container {
+  justify-content: space-between;
+}
+
+.f-detail {
+  gap: 1rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+.f-detail:hover {
+  cursor: pointer;
+}
